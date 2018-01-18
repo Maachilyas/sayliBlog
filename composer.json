@@ -35,7 +35,10 @@
         "laravel": {
             "dont-discover": [
             ]
-        }
+        },
+        "files":[
+            "tests/helpers.php"
+        ]
     },
     "scripts": {
         "post-root-package-install": [
