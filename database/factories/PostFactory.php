@@ -3,7 +3,7 @@
 use Faker\Generator as Faker;
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(Model::class, function (Faker $faker) {
+$factory->define(App\Post::class, function (Faker $faker) {
     $title = $faker->sentence;
     return [
         'user_id' => function () {

@@ -29,16 +29,16 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "files":[
+            "tests/helpers.php"
+        ]
     },
     "extra": {
         "laravel": {
             "dont-discover": [
             ]
-        },
-        "files":[
-            "tests/helpers.php"
-        ]
+        }
     },
     "scripts": {
         "post-root-package-install": [
